@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="estilo.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exame de Faixa</title>
+</head>
+<body>
+    <header>
+        <h1>Exame de Faixa de Karate Kyokushin</h1>
+    </header>
+    <main>
+        <section id="dados">
+            <h2>Insira os dados dos atletas</h2>
+            <div id="corpo">
+                <label for="atleta">
+                    <p>Nome: <input type="text" name="atleta" id="atleta" placeholder="Nome completo!" minlength="13" required autocomplete="name"></p>
+                </label>
+                <label for="idade">
+                    <p>Idade: <input type="number" name="idade" id="idade" required maxlength="2" ></p>
+                </label>
+                <div id="graduacao">
+                    <p><input type="radio" name="gd" id="10°Kyu"><img src="imagens/10°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="9°Kyu"><img src="imagens/9°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="8°Kyu"><img src="imagens/8°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="7°Kyu"><img src="imagens/7°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="6°Kyu"><img src="imagens/6°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="5°Kyu"><img src="imagens/5°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="4°Kyu"><img src="imagens/4°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="3°Kyu"><img src="imagens/3°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="2°Kyu"><img src="imagens/2°Kyu.png" alt=""></p>
+                    <p><input type="radio" name="gd" id="1°Kyu"><img src="imagens/1°Kyu.png" alt=""></p>
+                </div>
+                <label for="nota">
+                    <p>Nota: <input type="number" name="nota" id="nota" placeholder=></p>
+                </label>
+                <input id="botao" type="submit" value="Enviar" onclick="resultado()">
+            </div>
+        </section>
+        <section id="res">
+            <h2>Classificação do Atleta</h2>
+            <div id="classificacao">
+                <p>Resultado do Exame de Faixa</p>
+            </div> 
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Cobra Kai</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

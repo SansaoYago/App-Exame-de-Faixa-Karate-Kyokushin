@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'destaque';
+    src: url('fonte/NexaRustSans-Trial-Black2.ttf') format(truetype);
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font: normal 18pt arial;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+header {
+    background-image: linear-gradient(to right, #8B9D83, #E3D8F1);
+    text-align: center;
+    padding: 30px;
+    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.203);
+}
+
+header > h1 {
+    font-family: 'destaque', cursive;
+    font-size: 2.2em;
+}
+
+main {
+    width: 97vw;
+    height: 77vh;
+}
+
+main section {
+    display: inline-block;
+    height: 500px;
+    padding: 10px;
+    background-color: #3A4E48;
+    margin: 5px 30px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.381);
+}
+
+#dado {
+    float: left;
+    width: 300px;
+}
+
+#res {
+    float: right; 
+    width: 700px;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    color: #E3D8F1;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.389);
+}
+
+label p {
+    display: block;
+    text-align: right;
+    color: #E3D8F1;
+    padding: 5px;
+}
+
+label p input {
+    border-radius: 7px;
+}
+
+#botao { 
+    background-image: linear-gradient(to bottom, #3A4E48,#E3D8F1, #3A4E48);
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+div#graduacao {
+    text-align: left;
+    width: 230px;
+    padding: 5px 20px;
+    margin: auto;
+}
+
+div#classificacao {
+    background-color: #e3d8f1b1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2em;
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.166);
+}
+
+div#classificacao > p {
+    font-size: 2em;
+    margin-top: 100px;
+}
+
+#graduacao p {
+    font-size: .8em;
+}
+
+footer {
+    text-align: center;
+    color: #E3D8F1;
+    padding: 4px;
+    background-color: #3A4E48;
+}
