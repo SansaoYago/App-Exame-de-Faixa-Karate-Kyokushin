@@ -37,11 +37,11 @@ function resultado() {
     }
     // Resultado de Aprovação/Reprovação
     if (nota >= 6) {
-        resultadoFinal = 'Aprovado'
+        resultadoFinal = '<strong style=" color: green; ">Aprovado<strong>'
     } else if (nota >= 5.5 && nota < 6) {
-        resultadoFinal = 'Em Observação'
+        resultadoFinal = '<strong><span style=" color: rgb(255, 140, 0); sont-size: .5em;">Em Observação<span><strong>'
     } else {
-        resultadoFinal = 'Reprovado'
+        resultadoFinal = '<strong><span style=" color: red; sont-size: .5em;">Reprovado<span><strong>'
     }
     // Graduação do Aluno
     if (graduação == '10° Kyu' && nota >= 7) {
@@ -84,7 +84,7 @@ function resultado() {
         img.setAttribute('src', 'imagens/1°Dan.png')
     }
     
-    if (resultadoFinal == 'Aprovado') {
+    if (resultadoFinal == '<strong style=" color: green; ">Aprovado<strong>') {
         res.innerHTML = `${atleta}<br>${idade} Anos <br> Graduação: ${graduação} <br> Nota Final: ${nota} <br> Aluno: ${resultadoFinal} <br>`
          res.appendChild(img)
     } else {
