@@ -17,9 +17,7 @@ body {
     background-color: rgba(0, 0, 0, 0.404);
 }
 
-header#mobile {
-    display: none;
-}
+
 
 header {
     background-image: linear-gradient(to right, #8B9D83, #E3D8F1);
