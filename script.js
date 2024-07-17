@@ -39,7 +39,7 @@ function resultado() {
     if (nota >= 6) {
         resultadoFinal = '<strong style=" color: green; ">Aprovado<strong>'
     } else if (nota >= 5.5 && nota < 6) {
-        resultadoFinal = '<strong><span style=" color: rgb(255, 140, 0);">Em Observação<span><strong>'
+        resultadoFinal = '<strong><span style=" color: rgb(255, 140, 0);">Observação<span><strong>'
     } else {
         resultadoFinal = '<strong><span style=" color: red;">Reprovado<span><strong>'
     }
