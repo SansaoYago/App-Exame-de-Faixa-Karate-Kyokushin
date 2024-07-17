@@ -9,7 +9,7 @@ Desktop: de 992px até 1200pc
 Tv: acima de 1200px
 */
 
-@media screen and (min-width: 400px) and (max-width: 992px){
+@media screen and (min-width: 280px) and (max-width: 992px){
     header {
         background-image: linear-gradient(to right, #8B9D83, #E3D8F1);
         text-align: center;
@@ -19,11 +19,11 @@ Tv: acima de 1200px
     
     header > h1 {
         font-family: 'destaque', cursive;
-        font-size: 1em;
+        font-size: .5em;
     }
     
     main {
-        height: 160vh;
+        height: auto;
     }
     
     main section#dados {
