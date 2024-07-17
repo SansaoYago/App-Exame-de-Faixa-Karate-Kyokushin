@@ -26,10 +26,10 @@ Tv: acima de 1200px
         height: auto;
     }
     
-    main section#dados {
+    main section {
         display: block;
         min-width: 290px;
-        max-width: 77vw;
+        max-width: 75vw;
         padding: 10px;
         height: auto;
         background-color: #3A4E48;
@@ -79,7 +79,7 @@ Tv: acima de 1200px
     #res {
         display: block;
         min-width: 290px;
-        max-width: 77vw;
+        max-width: 75vw;
         margin: auto;
         float: none;
         margin-bottom: 20px;
