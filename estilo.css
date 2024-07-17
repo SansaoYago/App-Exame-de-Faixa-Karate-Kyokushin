@@ -54,6 +54,7 @@ main section {
 #res {
     float: right; 
     width: 700px;
+    height: auto;
 }
 
 h2 {
@@ -99,7 +100,7 @@ div#classificacao {
     text-align: center;
     line-height: 2em;
     width: 550px;
-    height: 400px;
+    height: 430px;
     padding: 20px;
     margin: auto;
     border-radius: 15px;
