@@ -28,21 +28,17 @@ Tv: acima de 1200px
     
     main section#dados {
         display: block;
+        min-width: 280px;
         max-width: 77vw;
         padding: 10px;
-        max-height: 100vh;
+        max-height: auto;
         background-color: #3A4E48;
-        margin: 5px auto;
+        margin: 20px auto;
         border-radius: 15px;
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.381);
     }
     
-    #res {
-        display: block;
-        max-width: 77vw;
-        margin: auto;
-        float: none;
-    }
+   
     
     h2 {
         text-align: center;
@@ -76,6 +72,15 @@ Tv: acima de 1200px
         width: 230px;
         padding: 5px 20px;
     }
+
+    #res {
+        display: block;
+        min-width: 280px;
+        max-width: 77vw;
+        margin: auto;
+        float: none;
+        margin-bottom: 20px;
+    }
     
     div#classificacao {
         background-color: #e3d8f1b1;
@@ -84,7 +89,8 @@ Tv: acima de 1200px
         font-weight: 600;
         text-align: center;
         line-height: 2em;
-        width: 63vw;
+        min-width: 240px;
+        max-width: 63vw;
         height: 400px;
         padding: 20px;
         border-radius: 15px;
