@@ -9,7 +9,7 @@ Desktop: de 992px até 1200pc
 Tv: acima de 1200px
 */
 
-@media screen and (min-width: 280px) and (max-width: 992px){
+@media screen and (min-width: 290px) and (max-width: 992px){
     header {
         background-image: linear-gradient(to right, #8B9D83, #E3D8F1);
         text-align: center;
@@ -28,10 +28,10 @@ Tv: acima de 1200px
     
     main section#dados {
         display: block;
-        min-width: 280px;
+        min-width: 290px;
         max-width: 77vw;
         padding: 10px;
-        max-height: auto;
+        height: auto;
         background-color: #3A4E48;
         margin: 20px auto;
         border-radius: 15px;
@@ -71,12 +71,14 @@ Tv: acima de 1200px
     div#graduacao {
         text-align: left;
         width: 230px;
+        height: auto;
+        margin: 20px auto;
         padding: 5px 20px;
     }
 
     #res {
         display: block;
-        min-width: 280px;
+        min-width: 290px;
         max-width: 77vw;
         margin: auto;
         float: none;
