@@ -39,9 +39,9 @@ function resultado() {
     if (nota >= 6) {
         resultadoFinal = '<strong style=" color: green; ">Aprovado<strong>'
     } else if (nota >= 5.5 && nota < 6) {
-        resultadoFinal = '<strong><span style=" color: rgb(255, 140, 0); sont-size: .5em;">Em Observação<span><strong>'
+        resultadoFinal = '<strong><span style=" color: rgb(255, 140, 0); font-size: .5em;">Em Observação<span><strong>'
     } else {
-        resultadoFinal = '<strong><span style=" color: red; sont-size: .5em;">Reprovado<span><strong>'
+        resultadoFinal = '<strong><span style=" color: red; font-size: .5em;">Reprovado<span><strong>'
     }
     // Graduação do Aluno
     if (graduação == '10° Kyu' && nota >= 7) {
