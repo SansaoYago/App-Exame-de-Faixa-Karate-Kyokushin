@@ -12,6 +12,10 @@ function resultado() {
     var resultadoFinal = ''
     var img = document.createElement('img')
     img.setAttribute('id', 'foto')
+
+   if (nome.value.length == 0 || idadeDoAtleta.value.length == 0) {
+    window.alert("[ERRO] Faltam dados do Atleta!")
+   }
     
     //Registro das faixas
     if (grad[0].checked) {
